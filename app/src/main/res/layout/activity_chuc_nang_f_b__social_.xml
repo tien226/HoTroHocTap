@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Social.ChucNangFB_Social_Activity">
+
+<!--    <EditText-->
+<!--        android:hint="title"-->
+<!--        android:id="@+id/edttitle_chucnangfb"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <EditText-->
+<!--        android:hint="mô tả"-->
+<!--        android:id="@+id/edtmota_chucnangfb"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <EditText
+        android:hint="link"
+        android:id="@+id/edtlink_chucnangfb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnsharelink_chucnangfb"
+        android:text="share link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/chonimg_chucnangfb"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnshareimg_chucnangfb"
+            android:text="share image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <VideoView
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/video_chucnangfb"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnchonvideo_chucnangfb"
+            android:text="chọn video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnsharevideo_chucnangfb"
+            android:text="share video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

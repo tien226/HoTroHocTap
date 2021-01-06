@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Course.CourseActivity">
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="THÊM KHÓA HỌC"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtmakhoahoc_Course"
+        android:hint="Nhập mã khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edttenkhoahoc_Course"
+        android:hint="Nhập tên khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtgiaovienkhoahoc_Course"
+        android:hint="Nhập giảng viên khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:onClick="ngaybatdaukhoahoc_Course"
+            android:layout_marginRight="8dp"
+            android:padding="16dp"
+            android:background="@drawable/et_bg"
+            android:layout_weight="1"
+            android:id="@+id/tvngaybatdaukhoahoc_Course"
+            android:hint="Ngày Bắt Đầu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:onClick="ngayketthuckhoahoc_Course"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/et_bg"
+            android:id="@+id/tvngayketthuckhoahoc_Course"
+            android:text="Ngày Kết thúc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnthemkhoahoc_Course"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/backgroup_btn"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:text="thêm khóa học"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnthoat_Course"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/backgroup_btn"
+            android:layout_weight="1"
+            android:text="thoát"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnthemsinhvien_course"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/backgroup_btn"
+        android:layout_marginTop="16dp"
+        android:text="thêm sinh viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

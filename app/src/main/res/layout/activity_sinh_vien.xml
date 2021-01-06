@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Course.SinhVienActivity">
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="THÊM SINH VIÊN"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="@drawable/et_bg"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:hint="Mã sinh viên"
+        android:id="@+id/edtmasinhvien_SinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:background="@drawable/et_bg"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/spmakhoahoc_SinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="@drawable/et_bg"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:hint="Họ tên"
+        android:id="@+id/edthoten_SinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:background="@drawable/et_bg"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:hint="Ngày Sinh"
+        android:id="@+id/tvngaysinh_SinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="@drawable/et_bg"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        android:hint="Quê quán"
+        android:id="@+id/edtquequan_SinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnthem_SinhVien"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/backgroup_btn"
+            android:layout_weight="1"
+            android:text="Thêm sinh viên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnthoat_sinhvien"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/backgroup_btn"
+            android:layout_weight="1"
+            android:text="thoát"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btndanhsach_sinhvien"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/backgroup_btn"
+        android:text="Danh sách sinh viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

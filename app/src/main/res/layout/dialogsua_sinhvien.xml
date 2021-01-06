@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CẬP NHẬT THÔNG TIN"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tvsuamasv_dialogsuasv"
+        android:hint="Mã sinh viên"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtsuamakhoahoc_dialogsuasv"
+        android:hint="Mã khóa học"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/edtsuahoten_dialogsuasv"
+        android:hint="Họ tên"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tvsuangaysinh_dialogsuasv"
+        android:hint="Ngày sinh"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtsuaquequan_dialogsuasv"
+        android:hint="Quê quán"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btnsua_dialogsuasv"
+        android:text="Cập nhật"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/backgroup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CẬP NHẬT THÔNG TIN"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtsuamakhoauoc_suaCourse"
+        android:hint="Nhập mã khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtsuatenkhoahoc_suaCourse"
+        android:hint="Nhập tên khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/edtsuagiaovienkhoahoc_suaCourse"
+        android:hint="Nhập giảng viên khóa học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginRight="8dp"
+            android:padding="16dp"
+            android:background="@drawable/et_bg"
+            android:layout_weight="1"
+            android:id="@+id/tvsuangaybatdaukhoahoc_suaCourse"
+            android:hint="Ngày Bắt Đầu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/et_bg"
+            android:id="@+id/tvsuangayketthuckhoahoc_suaCourse"
+            android:text="Ngày Kết thúc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/backgroup_btn"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/btnsua_dialogsuacourse"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="xác nhận"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
